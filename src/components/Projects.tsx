@@ -6,9 +6,9 @@ const Projects: React.FC = () => {
     title: 'Bislei',
     subtitle: 'Nature Meets Tech',
     description: 'A comprehensive Android application that revolutionizes the fishing experience by combining AI-powered fish identification, social features, and location-based services.',
-    image: 'https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2',
+    image: 'https://images.pexels.com/photos/2074746/pexels-photo-2074746.jpeg?_gl=1*e9zmpq*_ga*MTIzMDc1NDI0My4xNzM4MDcwMzgx*_ga_8JE65Q40S6*czE3NTQ2ODI0NjkkbzUkZzEkdDE3NTQ2ODI2MDgkajU5JGwwJGgw',
     liveUrl: 'https://bislei-b90ca.web.app/',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Aadil-Reyaz-Wani/Bislei---From-Lakes-to-Likes',
     technologies: ['Kotlin', 'Jetpack Compose', 'Firebase', 'ML Kit', 'Maps SDK', 'Room DB', 'Hilt'],
     features: [
       {
