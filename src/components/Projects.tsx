@@ -4,9 +4,9 @@ import { ExternalLink, Github, Play, MapPin, Camera, Users, Trophy } from 'lucid
 const Projects: React.FC = () => {
   const mainProject = {
     title: 'Bislei',
-    subtitle: 'Nature Meets Tech',
+    subtitle: 'From Lakes to Likes',
     description: 'A comprehensive Android application that revolutionizes the fishing experience by combining AI-powered fish identification, social features, and location-based services.',
-    image: 'https://images.pexels.com/photos/2074746/pexels-photo-2074746.jpeg?_gl=1*e9zmpq*_ga*MTIzMDc1NDI0My4xNzM4MDcwMzgx*_ga_8JE65Q40S6*czE3NTQ2ODI0NjkkbzUkZzEkdDE3NTQ2ODI2MDgkajU5JGwwJGgw',
+    image: 'https://images.unsplash.com/photo-1529230117010-b6c436154f25?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     liveUrl: 'https://bislei-b90ca.web.app/',
     githubUrl: 'https://github.com/Aadil-Reyaz-Wani/Bislei---From-Lakes-to-Likes',
     technologies: ['Kotlin', 'Jetpack Compose', 'Firebase', 'ML Kit', 'Maps SDK', 'Room DB', 'Hilt'],

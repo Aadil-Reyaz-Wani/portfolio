@@ -13,8 +13,7 @@ const Experience: React.FC = () => {
       achievements: [
         'Built Bislei app with AI fish identification using ML Kit and TensorFlow Lite',
         'Implemented social features with Firebase backend and real-time updates',
-        'Integrated Google Maps SDK for location-based fishing hotspot discovery',
-        'Achieved 90%+ user satisfaction with intuitive UI/UX design'
+        'Integrated Google Maps SDK for location-based fishing hotspot discovery'
       ]
     },
     {
@@ -33,15 +32,14 @@ const Experience: React.FC = () => {
     },
     {
       type: 'education',
-      title: 'Bachelor of Technology',
-      company: 'Computer Science & Engineering',
+      title: 'Bachelor of Computer Applications (BCA)',
+      company: 'Computer Science & Applications',
       location: 'Kashmir University',
-      period: '2018 - 2022',
+      period: '2019 - 2022',
       description: 'Focused on software engineering, mobile development, and computer science fundamentals.',
       achievements: [
         'Graduated with First Class Honours',
-        'Led university tech club and organized coding competitions',
-        'Completed final year project on AI-powered mobile applications'
+        'Led university tech club and organized coding competitions'
       ]
     }
   ];
@@ -55,7 +53,7 @@ const Experience: React.FC = () => {
     {
       title: 'Firebase Certified',
       issuer: 'Google Cloud',
-      year: '2022'
+      year: '2025'
     },
     {
       title: 'Kotlin Certified Developer',

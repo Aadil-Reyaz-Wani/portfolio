@@ -27,7 +27,8 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <div className="mb-8 animate-fade-in-up">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 shadow-2xl">
+            {/* Added extra top margin for AR circle */}
+            <div className="w-32 h-32 mx-auto mt-12 md:mt-16 mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 shadow-2xl">
               <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center text-4xl font-bold text-gray-800 dark:text-white">
                 AR
               </div>
@@ -58,37 +59,42 @@ const Hero: React.FC = () => {
                 View My Work
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
               </button>
-              <button
-                onClick={scrollToContact}
+              {/* Download Resume Button */}
+              <a
+                href="/resume.pdf"
+                download="Aadil_Reyaz_Wani_Resume.pdf"
                 className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border border-gray-200 dark:border-gray-700 flex items-center gap-2"
               >
                 <Download size={20} />
                 Download Resume
-              </button>
+              </a>
             </div>
 
             <div className="flex justify-center space-x-6">
+              {/* GitHub */}
               <a
                 href="https://github.com/Aadil-Reyaz-Wani"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#181717]"
                 aria-label="GitHub"
               >
                 <Github size={24} />
               </a>
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/aadilreyazwani/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#0A66C2]"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
+              {/* Email */}
               <a
                 href="mailto:aadilreyaz924@gmail.com"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#EA4335]"
                 aria-label="Email"
               >
                 <Mail size={24} />
