@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
                 href="https://github.com/Aadil-Reyaz-Wani"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#181717]"
+                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#181717] dark:hover:text-white"
                 aria-label="GitHub"
               >
                 <Github size={24} />
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
                 href="https://www.linkedin.com/in/aadilreyazwani/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#0A66C2]"
+                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#0A66C2] dark:hover:text-blue-400"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
               {/* Email */}
               <a
                 href="mailto:aadilreyaz924@gmail.com"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#EA4335]"
+                className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-gray-700 dark:text-gray-300 hover:text-[#EA4335] dark:hover:text-red-400"
                 aria-label="Email"
               >
                 <Mail size={24} />

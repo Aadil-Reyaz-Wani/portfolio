@@ -221,13 +221,13 @@ const Contact: React.FC = () => {
       icon: <Linkedin size={24} />,
       name: 'LinkedIn',
       href: 'https://www.linkedin.com/in/aadilreyazwani/',
-      color: 'hover:text-blue-600',
+      color: 'hover:text-blue-600 dark:hover:text-blue-400',
     },
     {
       icon: <MessageSquare size={24} />,
       name: 'WhatsApp',
       href: 'https://wa.me/916005309432',
-      color: 'hover:text-green-600',
+      color: 'hover:text-green-600 dark:hover:text-green-400',
     },
   ];
 
